@@ -61,7 +61,7 @@ class Chicken extends Animal
 
 class Farm
 {
-    public $yard = array();
+    private $yard = array();
     private $production;
 
     // Добавляет новый вид животный на ферму
